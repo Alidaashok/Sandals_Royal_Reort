@@ -1,0 +1,1 @@
+web: gunicorn Sandals_Royal_Resort.wsgi --log-file -
