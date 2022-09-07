@@ -19,3 +19,5 @@ def staffdetails(request):
     return render(request,'Resort_admin/staffdetails.html')
 def verify_payment(request):
     return render(request,'Resort_admin/verify_payment.html')
+def resort_home(request):
+    return render(request,'Resort_admin/resort_home.html')
